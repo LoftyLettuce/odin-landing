@@ -6,7 +6,11 @@ header, .intro, footer
 {
   background-color: #1F2937;
   color:#F9FAF8;
+}
+.intro h1
+{
   font-size: 48px;
+  font-weight: 800;
 }
 header ul
 {
@@ -17,31 +21,40 @@ header div
   font-size: 24px;
   font-weight: 800;
 }
-.intro h1, .content .infoHeader
+.content .infoHeader
 {
   font-size: 36px;
   font-weight: 800;
+  margin: 0;
 }
-.intro p, header a, .action .text, footer
+.intro p, header a, .action .text, footer, .intro .placeholder
 {
   font-size: 18px;
   color: #E5E7EB;
   text-decoration: none;
 }
-.intro button
+.intro .placeholder
+{
+  background-color: rgb(95, 102, 108);
+  height: 200px;
+  width: 500px;
+}
+.intro button, .action button
 {
   color: #F9FAF8;
   background-color: #3882F6;
   border-radius: 5px;
   border: none;
+  padding: 5px 20px;
 }
 .img
 {
-  border: 1px solid #3882F6;
-  width: 50px;
-  height: 50px;
+  border: 3px solid #3882F6;
+  border-radius: 20px;;
+  width: 150px;
+  height: 150px;
 }
-.text
+.info .text
 {
   color:grey;
 }
@@ -55,6 +68,10 @@ header div
   color: #1F2937;
   font-style: italic;
 }
+.quote .author
+{
+  font-weight: 800;
+}
 .action, .action button
 {
   background-color: #3882F6;
@@ -65,4 +82,96 @@ header div
 .action .header
 {
   font-weight: 800;
+}
+body
+{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+header
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 0 200px;
+}
+ul
+{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.intro
+{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 80px 200px 50px;
+}
+.intro .placeholder
+{
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro .text
+{
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.content
+{
+  padding: 20px 100px 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.infocontent
+{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.info
+{
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quote
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 400px;
+}
+.quote .author
+{
+  padding-right: 30px;
+  align-self: flex-end;
+}
+.action
+{
+  margin: 100px 200px;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+footer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
 }
