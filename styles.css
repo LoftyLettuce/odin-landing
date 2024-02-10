@@ -1,0 +1,68 @@
+*
+{
+  font-family: roboto, sans-serif;
+}
+header, .intro, footer
+{
+  background-color: #1F2937;
+  color:#F9FAF8;
+  font-size: 48px;
+}
+header ul
+{
+  list-style: none;
+}
+header div
+{
+  font-size: 24px;
+  font-weight: 800;
+}
+.intro h1, .content .infoHeader
+{
+  font-size: 36px;
+  font-weight: 800;
+}
+.intro p, header a, .action .text, footer
+{
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+.intro button
+{
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border-radius: 5px;
+  border: none;
+}
+.img
+{
+  border: 1px solid #3882F6;
+  width: 50px;
+  height: 50px;
+}
+.text
+{
+  color:grey;
+}
+.quote
+{
+  background-color: #E5E7EB;
+}
+.quote .text
+{
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+}
+.action, .action button
+{
+  background-color: #3882F6;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.action .header
+{
+  font-weight: 800;
+}
