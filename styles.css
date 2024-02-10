@@ -71,6 +71,8 @@ header div
 .quote .author
 {
   font-weight: 800;
+  font-size: 18px;
+  font-style: normal;
 }
 .action, .action button
 {
@@ -154,12 +156,20 @@ ul
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px 400px;
+  align-items: center;
+  padding: 100px 0;
+}
+.quote .text
+{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
 }
 .quote .author
 {
   padding-right: 30px;
   align-self: flex-end;
+
 }
 .action
 {
