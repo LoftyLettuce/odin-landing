@@ -93,10 +93,11 @@ body
 }
 header
 {
+  min-height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: end;
-  padding: 0 200px;
+  padding: 0 50px 0 200px;
 }
 ul
 {
@@ -157,13 +158,14 @@ ul
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
+  padding: 50px 100px;
 }
 .quote .text
 {
   display: flex;
   flex-direction: column;
   max-width: 500px;
+  gap: 50px;
 }
 .quote .author
 {
@@ -173,7 +175,7 @@ ul
 }
 .action
 {
-  margin: 100px 200px;
+  margin: 50px 200px;
   padding: 50px 100px;
   display: flex;
   justify-content: space-between;
